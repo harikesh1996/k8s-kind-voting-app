@@ -146,6 +146,7 @@
   kubectl get secret -n argocd argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo
   ```
 
+<<<<<<< HEAD
 
 ---
 
@@ -199,3 +200,5 @@ sum(rate(container_network_transmit_bytes_total{namespace="default"}[5m])) by (p
 
 
 
+=======
+>>>>>>> 5810510183ffafdc6b5ad56544e6d64ab43ab839

@@ -5,7 +5,11 @@ metadata:
     app: result
   name: result
 spec:
+<<<<<<< HEAD
   replicas: 1
+=======
+  replicas: 3
+>>>>>>> 5810510183ffafdc6b5ad56544e6d64ab43ab839
   selector:
     matchLabels:
       app: result
