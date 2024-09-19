@@ -13,7 +13,7 @@ spec:
 <<<<<<< HEAD
     nodePort: 31002
 =======
-    nodePort: 31000
+    nodePort: 31002
 >>>>>>> 5810510183ffafdc6b5ad56544e6d64ab43ab839
   selector:
     app: vote
